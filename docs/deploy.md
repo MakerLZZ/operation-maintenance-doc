@@ -76,4 +76,42 @@ yum install git
 git clone xxx # xxx为代码地址
 ```
 
-## 搭建node静态站点部署前端项目（待完善）
+## Linux搭建node静态站点测试部署项目
+1.创建一个```js```文件
+```
+mkdir app.js
+```
+2.```vim```编辑```app.js```文件
+```js
+var http = require('http');
+var server = http.createServer(function (request, response) {
+    response.setHeader('Content-Type', 'text/html;charset=utf-8');
+    response.write('<h1>node static web site</h1>');
+    response.end();
+});
+server.listen(3001);
+```
+3.保存并退出后输入如下命令运行该站点
+```
+node app.js
+```
+4.在浏览器中访问服务器```ip```地址下的3001端口如下图表示成功
+
+![avatar](../images/node/node_static_web.png)
+
+## Linux使用```serve```运行前端打包项目
+1.安装```serve```
+```
+npm install -g serve
+```
+2.打包前端项目，在项目根目录输入
+```
+npm run build
+```
+3.将打包好的dist或者build文件夹中的文件上传至linux系统文件目录中
+
+4.在该linux文件目录下输入```serve -s```然后显示如下图表示运行成功
+
+![avatar](../images/node/serve.png)
+
+5.在浏览器中访问服务器```ip```地址下的5000端口即可
