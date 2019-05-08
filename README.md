@@ -6,19 +6,12 @@
 |--operation-maintenance-doc
     |-- README.md
     |-- docs
-    |   |-- deploy.md 部署相关
-    |   |-- permission.md 权限相关
-    |   |-- Xshell.md 工具相关
-    |-- images 文档所需图片目录
-        |-- node
-        |   |-- node_static_web.png
-        |   |-- serve.png
-        |-- Xftp
-        |   |-- Xftp_btn.png
-        |   |-- Xftp_workspace.png
-        |-- Xshell
-            |-- Xshell_acc.png
-            |-- Xshell_connect.png
-            |-- Xshell_key.png
-            |-- Xshell_new.png
+    |   |-- deploy.md # 部署相关
+    |   |-- permission.md # 权限相关
+    |   |-- summary.md # 总结文档
+    |   |-- Xshell.md # 工具相关
+    |-- images # 文档所需图片目录
+        |-- node # deploy.md
+        |-- Xftp # Xshell.md
+        |-- Xshell # Xshell.md
 ```
