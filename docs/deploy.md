@@ -35,12 +35,12 @@ cd ~/.nvm
 ```
 vim .bash_profile
 ```
-3.编写如下代码，按照安装时所给提示编写（```$HOME```即是会变化的）
+3.编写如下代码，按照安装时所给提示编写（$HOME即是从提示中获取）
 ```
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 ```
-4.保存并退出以后```nvm```命令即可使用了
+4.保存并退出以后，nvm命令即可使用
 ***
 
 ### 使用nvm安装node
