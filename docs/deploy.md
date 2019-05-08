@@ -1,13 +1,10 @@
 # Deploy
-``` bash
-# 部署项目相关知识
-```
+部署项目相关知识
 
 ## 安装node
+
 ### nvm
-``` bash
-# 通过使用```nvm```来安装和管理```node```版本，[官网地址](https://github.com/nvm-sh/nvm)
-```
+通过使用```nvm```来安装和管理```node```版本，[官网地址](https://github.com/nvm-sh/nvm)
 
 #### 安装nvm
 1.进入官网查看```README.md```文件如下模块
